@@ -6,9 +6,35 @@
     </header>
     <body>
 
-        <h1>My Snarky Kitty</h1>
+        <h1>Report Racism</h1>
         <form>
-            <textarea></textarea>
+            <div class="question who">
+                <p>Are you submitting this report on behalf of yourself or another?</p>
+                <input type="radio" value="myself">Myself
+                <br>
+                <input type="radio" value="another">Another
+                <br>
+            </div>
+            
+            <br>
+            
+            <div class="question what">
+                <p>What happened?</p>
+                <textarea></textarea>
+            </div>
+            
+            <br>
+            
+            <div class="question tags">
+                <p>Select all tags that apply to this report.</p>
+                <input type="checkbox" value="individual">Individual<br>
+                <input type="checkbox" value="corporation">Corporation<br>
+                <input type="checkbox" value="small-business">Small Business<br>
+                <input type="checkbox" value="microagression">Microagression<br>
+                <input type="checkbox" value="violent">Violent<br>
+                <input type="checkbox" value="nonprofit">Nonprofit<br>
+            </div>
+            
         </form>
 
     </body>
