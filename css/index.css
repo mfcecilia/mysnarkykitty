@@ -22,16 +22,18 @@ button {
     font-family: 'IM Fell Double Pica', serif;
     display: block;
     margin: auto;
+    max-width: 100%;
 }
 
 footer {
     bottom: 0;
     color: grey;
-    position: absolute;
+    position: fixed;
     margin: auto;
     display: block;
     width: 100%;
     max-width: 100%;
     text-align: center;
     font-family: 'IM Fell Double Pica', serif;
+    clear: both;
 }
