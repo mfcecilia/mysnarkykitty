@@ -1,0 +1,15 @@
+body {
+    height: 100%;
+    min-height: 100%;
+}
+button {
+    font-size: 1.5em;
+}
+
+footer {
+    bottom: 0;
+    color: grey;
+    position: fixed;
+    clear: both;
+    margin: auto;
+}
