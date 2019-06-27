@@ -1,16 +1,37 @@
 body {
     height: 100%;
     min-height: 100%;
+    font-family: 'IM Fell Double Pica', serif;
 }
+
+h1 {
+    text-align: center;
+    font-family: 'IM Fell Double Pica', serif;
+}
+
+img {
+    width: 50%;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+
 button {
     font-size: 1.5em;
     cursor: pointer;
+    font-family: 'IM Fell Double Pica', serif;
+    display: block;
+    margin: auto;
 }
 
 footer {
     bottom: 0;
     color: grey;
-    position: fixed;
-    clear: both;
+    position: absolute;
     margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    font-family: 'IM Fell Double Pica', serif;
 }
