@@ -25,6 +25,11 @@ button {
     max-width: 100%;
 }
 
+footer a {
+    text-decoration: none;
+    color: grey;
+}
+
 footer {
     bottom: 0;
     color: grey;
