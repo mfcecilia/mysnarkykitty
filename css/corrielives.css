@@ -1,0 +1,98 @@
+header {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+header img {
+    max-width: 70%;
+}
+
+header h1 {
+    width: 100%;
+    text-align: center;
+}
+
+header p {
+    width: 100%;
+    text-align: center;
+    font-style: oblique;
+}
+
+header hr {
+    width: 30%;
+}
+
+.pages {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pages a {
+    text-decoration: none;
+    color: black;
+}
+
+.pages div {
+    border: solid .05em grey;
+    padding: 1em;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+}
+
+.pages div:hover {
+    border: solid .05em pink;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container img {
+    max-width: 30%;
+}
+
+.container p {
+    max-width: 50%;
+    font-size: 1.3em;
+    font-style: oblique;
+}
+
+.partition {
+    max-width: 30%;
+}
+
+.map {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.map img {
+    max-width: 30%;
+}
+
+.social {
+    text-align: center;
+}
+
+.social a {
+    text-decoration: none;
+    color: black;
+}
+
+.social p {
+    font-style: oblique;
+    font-size: 1.3em;
+}
+
+footer p {
+    text-align: center;
+    color: grey;
+}
+
+footer a {
+    text-decoration: none;
+    color: grey;
+}
