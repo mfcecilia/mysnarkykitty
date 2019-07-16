@@ -5,9 +5,22 @@ body {
 }
 
 h1 {
-    font-size: 5em;
-    background-color: gold;
-    padding: 2em;
+    font-size: 3em;
+    color: gold;
+    padding: .3em;
+    margin: auto;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    max-width: 70%;
+    margin: auto;
+    font-size: 1.3em;
+}
+
+.google-form {
+    text-align: center;
     margin: auto;
 }
 
@@ -39,7 +52,6 @@ footer {
     color: grey;
     position: fixed;
     margin: auto;
-    background-color: gold;
     width: 100%;
     max-width: 100%;
     text-align: center;
