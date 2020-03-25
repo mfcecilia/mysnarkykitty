@@ -87,6 +87,11 @@ header hr {
     font-size: 1.3em;
 }
 
+video {
+    margin: auto;
+    width: 100%;
+}
+
 footer p {
     text-align: center;
     color: grey;
