@@ -1,0 +1,17 @@
+.candidates {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    text-align: center;
+}
+
+.candidate-tile {
+    width: 30%;
+    border: grey solid 3px;
+    margin: 3%;
+    padding: 3%;
+}
+
+button {
+    cursor: pointer;
+}
